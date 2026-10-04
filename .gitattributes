@@ -1,0 +1,14 @@
+# Normalise line endings: store LF in the repository, check out LF everywhere.
+* text=auto eol=lf
+*.md  text eol=lf
+*.py  text eol=lf
+*.tex text eol=lf
+*.bib text eol=lf
+*.cff text eol=lf
+
+# Binary content must never be touched.
+*.pdf binary
+*.png binary
+*.zip binary
+*.cls binary
+*.json binary

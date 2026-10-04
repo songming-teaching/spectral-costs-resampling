@@ -1,0 +1,43 @@
+# Citation metadata for the resampling spectral-cost paper archive.
+# The DOI under `identifiers` is a placeholder until the Zenodo snapshot is minted.
+cff-version: 1.2.0
+message: "If you use this code or its data, please cite the paper below and this repository."
+title: "Spectral Costs of Multinomial and Residual Resampling in High-Dimensional Particle Ensembles: A Free-Probability Analysis -- code and data"
+type: software
+version: 1.0.0
+date-released: "2026-10-05"
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
+repository-code: "https://github.com/songming-teaching/spectral-costs-resampling"
+authors:
+  - family-names: Song
+    given-names: Deming
+    email: p2514650@mpu.edu.mo
+    affiliation: "Faculty of Applied Sciences, Macao Polytechnic University, Macao, China"
+  - family-names: Lam
+    given-names: Chi Kin
+    email: cklamsta@mpu.edu.mo
+    affiliation: "Faculty of Applied Sciences, Macao Polytechnic University, Macao, China"
+keywords:
+  - particle filtering
+  - resampling
+  - random matrix theory
+  - free probability
+  - limiting spectral distribution
+  - effective sample size
+  - reproducibility
+# identifiers:                        # fill in once the Zenodo snapshot is minted
+#   - type: doi
+#     value: "10.5281/zenodo.TODO"
+#     description: "Zenodo archive of this release"
+preferred-citation:
+  type: article
+  title: "Spectral Costs of Multinomial and Residual Resampling in High-Dimensional Particle Ensembles: A Free-Probability Analysis"
+  authors:
+    - family-names: Song
+      given-names: Deming
+    - family-names: Lam
+      given-names: Chi Kin
+  journal: "IEEE Transactions on Signal Processing"
+  status: submitted
+  year: 2026

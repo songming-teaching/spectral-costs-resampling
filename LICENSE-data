@@ -1,0 +1,19 @@
+Figures, result data and documentation in this repository
+(experiments/*/data/, experiments/*/fig/, experiments/*/logs/, docs/, and the
+manuscript PDFs under paper/) are licensed under the Creative Commons
+Attribution 4.0 International License (CC BY 4.0).
+
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+You are free to share and adapt this material for any purpose, provided you give
+appropriate credit (see CITATION.cff), provide a link to the license, and indicate
+if changes were made.
+
+Source code (the *.py files under experiments/) and the LaTeX sources under
+paper/src/ are licensed separately under the MIT License -- see LICENSE.
+
+Exception: paper/src/IEEEtran.cls is a third-party file from IEEE, distributed
+under the LaTeX Project Public License. It is included unchanged so that the
+LaTeX sources compile, and is not covered by either licence above.
+
+Copyright (c) 2026 Deming Song

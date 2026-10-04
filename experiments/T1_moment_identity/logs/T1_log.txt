@@ -1,0 +1,8 @@
+T1: d=150, N=300, R=1000, R_N=124
+tr S_w² = 296.338080
+theory cost multi = 7.512771e+01, theory cost res = 3.132938e+01
+Corollary 19: eigmin(Cov_multi − Cov_res) = -2.665e-15 (should be ≥ −1e-12)
+scheme        MC mean        MC SE          theory         |MC−theory|/SE
+multinomial    7.411433e+01   5.203e-01    7.512771e+01   1.948
+residual       3.129885e+01   2.475e-01    3.132938e+01   0.123
+MC ordering: mean_res (3.129885e+01) ≤ mean_multi (7.411433e+01): True

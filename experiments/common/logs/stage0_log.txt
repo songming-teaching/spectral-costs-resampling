@@ -1,0 +1,20 @@
+=== Check 1-4: η = δ1, c = 0.8 (MP recovery) ===
+z=1j: Im m=6.100e-01 (>0: True), equation residual=6.44e-14
+z=(3+2j): Im m=2.625e-01 (>0: True), equation residual=3.15e-14
+z=(0.05+0.5j): Im m=9.190e-01 (>0: True), equation residual=2.15e-13
+zm(z) at z=1e6 i: -1.000000+0.000001j (should be ~ -1)
+MP(c) recovery: max relative density error in interior = 0.760% (<1% required)
+=== Check 5: zero-mass consistency ===
+uniform/MixPoi(1): analytic zero mass=0.209849, solver(-iy m(iy))=0.209849, |diff|=8.08e-09
+two-pt mult: analytic zero mass=0.268538, solver(-iy m(iy))=0.268538, |diff|=3.35e-09
+two-pt res: analytic zero mass=0.129082, solver(-iy m(iy))=0.129082, |diff|=4.24e-08
+=== Check 6: truncation sensitivity (two-pt mult, K=20 vs K=60) ===
+K=20: truncated mass=0.000e+00, truncated 2nd tail moment=5.107e-15
+K=60: truncated mass=0.000e+00, truncated 2nd tail moment=-5.551e-17
+max |f_K20 - f_K60| on grid = 2.109e-15
+h=1e-3 vs h=5e-4: max |Δf| = 1.438e-01 at x=0.020 (edge sharpening; report only)
+=== Check 7: dual-solver cross-check (two-pt mult, c=0.8) ===
+dual-solver transform relation residual (max, relative): 6.44e-13
+companion internal identity ∫1/(1+tu) = -z·e: max residual 1.90e-13
+dual-solver density deviation (x>0.15): 0.000% (<2% required)
+companion zero mass: solver=0.414830 vs (1-c)+c*mu0=0.414830

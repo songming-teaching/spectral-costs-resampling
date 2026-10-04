@@ -1,0 +1,19 @@
+=== A3 control: H boxtimes MP(c) pipeline validation ===
+  z=1j: pipeline m=0.305024+0.633765j, empirical=0.305104+0.633806j, |diff|=8.95e-05
+  z=(0.5+0.5j): pipeline m=-0.021238+1.049525j, empirical=-0.021118+1.049612j, |diff|=1.48e-04
+  z=(2+1j): pipeline m=-0.279424+0.432536j, empirical=-0.279682+0.432660j, |diff|=2.86e-04
+  z=(0.2+0.3j): pipeline m=0.396660+1.489339j, empirical=0.397138+1.489521j, |diff|=5.11e-04
+control max deviation = 5.11e-04 (<5e-3 required): True
+=== A1: scale checks (N=500, 2000; uniform & two-point; R=10) ===
+N=500 uniform: m2 2.586±0.021 (th 2.6) | nu0 0.3646±0.0051 (th 0.3679) | mu0 0.2058±0.0064 (th 0.2098)
+N=500 twopoint: m2 2.833±0.014 (th 2.8) | nu0 0.4154±0.0042 (th 0.4148) | mu0 0.2692±0.0052 (th 0.2685)
+N=2000 uniform: m2 2.618±0.008 (th 2.6) | nu0 0.3701±0.0020 (th 0.3679) | mu0 0.2126±0.0024 (th 0.2098)
+N=2000 twopoint: m2 2.799±0.010 (th 2.8) | nu0 0.4144±0.0020 (th 0.4148) | mu0 0.2681±0.0025 (th 0.2685)
+=== A2: non-Gaussian control (Rademacher & Student-t8; two-point, multinomial, N=1000, d=800, R=10) ===
+gaussian   : m2 2.800±0.012 (asym 2.8, finite-N 2.800) | mu0 0.2705±0.0052 (th 0.26854)
+rademacher : m2 2.821±0.017 (asym 2.8, finite-N 2.798) | mu0 0.2755±0.0047 (th 0.26854)
+student-t8 : m2 2.821±0.021 (asym 2.8, finite-N 2.801) | mu0 0.2690±0.0051 (th 0.26854)
+A2 note: single configuration; agreement level reported as-is, NOT a universality proof.
+=== A3: two-point population H = (1/2)delta_{1/2}+(1/2)delta_{3/2}, uniform weights, multinomial; mu_S = H boxtimes T_c(Poi(1)) ===
+m1 post 1.0011 (th 1.0) | m2 pre 2.054 (th 2.05) | m2 post 2.856 (th 2.85)
+zero atom: emp 0.2079 vs th 0.20985 (max-atom rule)

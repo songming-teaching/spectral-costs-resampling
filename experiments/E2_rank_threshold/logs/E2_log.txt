@@ -1,0 +1,39 @@
+=== Part A: count-only, N=10^4, 300 reps ===
+c=0.350  q0 0.0000±0.0000  th 0.0000
+c=0.450  q0 0.0000±0.0000  th 0.0000
+c=0.550  q0 0.0000±0.0000  th 0.0000
+c=0.600  q0 0.0000±0.0000  th 0.0000
+c=0.632  q0 0.0020±0.0002  th 0.0000
+c=0.660  q0 0.0422±0.0003  th 0.0422
+c=0.720  q0 0.1220±0.0002  th 0.1221
+c=0.800  q0 0.2100±0.0002  th 0.2098
+c=0.900  q0 0.2975±0.0002  th 0.2976
+c=1.000  q0 0.3680±0.0002  th 0.3679
+c=1.080  q0 0.4148±0.0002  th 0.4147
+c=1.150  q0 0.4503±0.0002  th 0.4503
+=== Prop 13 true lower edge (Poi(1) count law) ===
+c=0.350  benchmark 0.04139   true edge 0.05607   (true ≥ bench: True)
+c=0.450  benchmark 0.01544   true edge 0.02058   (true ≥ bench: True)
+c=0.550  benchmark 0.00286   true edge 0.00376   (true ≥ bench: True)
+c=0.600  benchmark 0.00042   true edge 0.00055   (true ≥ bench: True)
+c=0.632  benchmark 0.00000   true edge 0.00000   (true ≥ bench: True)
+c=0.660  benchmark 0.00030   true edge 0.00039   (true ≥ bench: True)
+c=0.720  benchmark 0.00286   true edge 0.00369   (true ≥ bench: True)
+c=0.800  benchmark 0.00987   true edge 0.01267   (true ≥ bench: True)
+c=0.900  benchmark 0.02360   true edge 0.03004   (true ≥ bench: True)
+c=1.000  benchmark 0.04200   true edge 0.05308   (true ≥ bench: True)
+c=1.080  benchmark 0.05962   true edge 0.07495   (true ≥ bench: True)
+c=1.150  benchmark 0.07691   true edge 0.09627   (true ≥ bench: True)
+=== Part B: λ_min⁺, N=1000, 15 reps per c ===
+c=0.350  λ_min⁺ med 0.05906 [q1 0.05517, q3 0.06203]  bench 0.04139  true 0.05607
+c=0.450  λ_min⁺ med 0.02166 [q1 0.02018, q3 0.02349]  bench 0.01544  true 0.02058
+c=0.550  λ_min⁺ med 0.00399 [q1 0.00341, q3 0.00471]  bench 0.00286  true 0.00376
+c=0.600  λ_min⁺ med 0.00089 [q1 0.00071, q3 0.00106]  bench 0.00042  true 0.00055
+c=0.632  λ_min⁺ med 0.00008 [q1 0.00002, q3 0.00014]  bench 0.00000  true 0.00000
+c=0.660  λ_min⁺ med 0.00037 [q1 0.00019, q3 0.00054]  bench 0.00030  true 0.00039
+c=0.720  λ_min⁺ med 0.00359 [q1 0.00316, q3 0.00432]  bench 0.00286  true 0.00369
+c=0.800  λ_min⁺ med 0.01433 [q1 0.01313, q3 0.01499]  bench 0.00987  true 0.01267
+c=0.900  λ_min⁺ med 0.03050 [q1 0.02884, q3 0.03126]  bench 0.02360  true 0.03004
+c=1.000  λ_min⁺ med 0.05428 [q1 0.04954, q3 0.05957]  bench 0.04200  true 0.05308
+c=1.080  λ_min⁺ med 0.07949 [q1 0.07602, q3 0.08137]  bench 0.05962  true 0.07495
+c=1.150  λ_min⁺ med 0.09721 [q1 0.09564, q3 0.10371]  bench 0.07691  true 0.09627
