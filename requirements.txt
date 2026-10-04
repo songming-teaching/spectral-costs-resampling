@@ -1,0 +1,4 @@
+# Versions used to produce the archived results.
+numpy>=2.0        # stage0_solvers.py uses np.trapezoid (removed-in-2.0 alias for np.trapz)
+scipy>=1.10       # scipy.optimize.brentq, scipy.optimize.fsolve
+matplotlib>=3.7   # Agg backend, per-panel PDF output
