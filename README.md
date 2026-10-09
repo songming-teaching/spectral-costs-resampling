@@ -41,10 +41,6 @@ docs/
   实验总指导_谱代价论文.md      experiment programme (zh)
   实验完成报告.md               completion report, all pass/fail criteria (zh)
   数据文件索引.md               data-file index, column-by-column (zh)
-  论文写作快速参考.md           writing reference (zh)
-  NOTE_伴随方程形式问题.md      solver note: two literature companion forms refuted (zh)
-  PANELS_README.md              per-panel figure conventions and the 20-panel list (zh)
-  ARCHIVE_NOTE.md               warning about superseded material (zh)
 ```
 
 ---
